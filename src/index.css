@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=SF+Pro+Display:wght@700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Pretendard", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "SF Pro Display", "Inter", sans-serif;
+  --color-primary: #FF6321;
+  --color-ink: #1A1A1A;
+}
+
+body {
+  @apply bg-[#F5F5F5] text-ink antialiased;
+  font-family: var(--font-sans);
+}
+
+/* Status specific colors from Design HTML */
+.status-indicator-o {
+  @apply bg-[#DCFCE7] text-[#166534];
+}
+
+.status-indicator-x {
+  @apply bg-[#FEE2E2] text-[#991B1B];
+}
+
+.status-indicator-delta {
+  @apply bg-[#FEF9C3] text-[#A16207];
+}
+
+/* Custom scrollbar for sidebar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E5E5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D1D1D1;
+}
+

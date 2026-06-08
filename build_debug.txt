@@ -1,0 +1,526 @@
+2026-06-08T03:03:41.651Z vite:config config file loaded in 306.35ms
+2026-06-08T03:03:41.656Z vite:env loading env files: [
+  'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/.env',
+  'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/.env.local',
+  'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/.env.production',
+  'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/.env.production.local'
+]
+2026-06-08T03:03:41.661Z vite:env env files loaded in 5.68ms
+2026-06-08T03:03:41.666Z vite:env using resolved env: {
+  GEMINI_API_KEY: 'AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw',
+  VITE_GEMINI_API_KEY: 'AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw',
+  APP_URL: 'http://localhost:3000',
+  ALLUSERSPROFILE: 'C:\\ProgramData',
+  ANTIGRAVITY_AGENT: '1',
+  ANTIGRAVITY_CSRF_TOKEN: '1c11ee4e-897b-48e8-96f7-f02ece425171',
+  ANTIGRAVITY_EDITOR_APP_ROOT: 'c:\\Users\\User\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app',
+  ANTIGRAVITY_LS_ADDRESS: 'localhost:63581',
+  ANTIGRAVITY_SOURCE_METADATA: '{"tool":{"conversationId":"471d1011-8ef9-49bf-849a-9b79498e7550","stepIndex":114,"toolCall":{"id":"05u7w6hx","name":"run_command","argumentsJson":"{\\"CommandLine\\":\\"cmd /c \\\\\\"npx vite build --debug \\\\u003e build_debug.txt 2\\\\u003e\\\\u00261\\\\\\"\\",\\"Cwd\\":\\"e:\\\\\\\\MY PROJECT\\\\\\\\안전관리비 걔상 여부앱\\\\\\\\safecash-main\\\\\\\\safecash-main\\",\\"WaitMsBeforeAsync\\":8000,\\"toolAction\\":\\"Run build in debug mode\\",\\"toolSummary\\":\\"Run build in debug mode\\"}","thinkingSignature":"EvoHCvcHAQw51sfsu9rg2Ol6Z14E2bfvT8RkMN0IX4a2gz0/MWaePUscgNlUTgB2kMu/VAI7gD9ojGz9RP+6MekGFNJLgA9A9tfbWjYntWXNyJ1oK1WjmG5hiyo67UCk7zp1Di3i2Q1r8v6z1HIH7v2ugGt3yQQEJBfIyygh7JEoVeuoy7p4OvqO3af+2bn8OEhxt4iu2l1ZI7xtQUQuAV20ihWBLkZeK6+vSdUqNSxlmlXcgdPBXHJTZ0TA0Z3GStpjZ7LTDkkCWVOedd7DYNnAE5A1UKL9Ckqk+B74aZl/fICibfBos6WCEnaku1exB9vlLvtrIAYSU5USDw3wMsSMnoWBHDLf3orVAtoPL+lych65w7muRaTUngII0sNzhfbNsip5ZG/gtXLCN07RSxgQL1tJlsNfqY2cNmamcMbUqTCESgFYhMeyTOtTfglAtR0XX36AY/voZtIW9ynaPm07BVQblkprvAHaCuRctqaaMd3vfnZ4A3YVImP9U/uC22DvwXZEq9QfC/hPYEiJb1xo7IMtXSqAjPH7XhQkN1a6+V5wR/iNP1U8zgtAEmAMUryC47rvIKzf2BqpEvAY0ZgnTNMwaN3a+xjjl5Ow67f6LWrB9/+u0FOeLntdALrD5OrP36ZHQJCO78AEegQsaN+8TRNCqmPislqP8vfhxf345YVKFympBBG8ARfVV81HLDrtiVDaToOk0szxf7xLX9bsSmg58QM4r/s+yBT4wk+Z54UI9kjrz24ydZNaXrKWIcGRmfHOB6x9tifRnrXa/bgbGpyFhn7B7f9GWRQsB6LwI2nxpVb/iN/H3WSNclZf7hk6+WABzC9L8b/7ViCc6b6+GX1AyCQ9LqaLLWaGnCery281gS5nu7IJCB01iysCf4V1mLUdD8rI+424QcKh+VYHh8AgPsohu9IzVlEXuf32o2laj3UUxbCx1td8DF+EgeE1qyjTXQ5P2HM/S3YFVM9wcCmuwdPbrHc+B+vnIzR/pGVwsFZXd8QP/ZwNwt7Bk4i5L83U7qV5XfYp4lOco5Q33Z/bpsFAz+H0yNhOHkgiLhoRCVOgCsvZ1RP8ygMvQ2nLqJ8gyJORiEfhWSZUk5H8BV+uB2szGEs2FeiJWFQW8H6VapKcpUL8RVabL2dnJTwxb+QQ/04JnfhPWC7mTPk8P773Nv/ks/RtLFSGLBRqo2NZZA3NjmvFpbNmrNapO9g7hzL2oxfs5JlgAIVSsy7y5utiu9rp0UY/v12AJg+NTOdu9+fko1oXm2mo6HlCXpAVwgTxp+rs3iyLrlIZ5fA8RS60qUhg2iuKTnmHEQmvtFzPHAFMjnxWhiYfMhZaqGAAGNILM5FAYvR1OA==","originalName":"run_command"}}}',
+  ANTIGRAVITY_TRAJECTORY_ID: '4a572d8f-9a65-4a2d-b82b-0e8d1b3d96b2',
+  APPDATA: 'C:\\Users\\User\\AppData\\Roaming',
+  ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+  ChocolateyLastPathUpdate: '134133679658141370',
+  CHROME_CRASHPAD_PIPE_NAME: '\\\\.\\pipe\\crashpad_9620_DUTGGNRHNOTMRQAT',
+  CLAUDE_CODE_GIT_BASH_PATH: 'C:\\Program Files\\Git\\bin\\bash.exe',
+  CLAUDE_PLUGIN_ROOT: 'C:\\Users\\User\\.claude\\plugins',
+  COLOR: '0',
+  CommonProgramFiles: 'C:\\Program Files\\Common Files',
+  'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+  CommonProgramW6432: 'C:\\Program Files\\Common Files',
+  COMPUTERNAME: 'USER-9DH7I1QMAL',
+  ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+  DEBUG: 'vite:*',
+  DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+  EDITOR: 'C:\\Windows\\notepad.exe',
+  EFC_9200_1592913036: '1',
+  EFC_9200_4126798990: '1',
+  HERMES_GIT_BASH_PATH: 'C:\\Program Files\\Git\\bin\\bash.exe',
+  HERMES_HOME: 'C:\\Users\\User\\AppData\\Local\\hermes',
+  HOME: 'C:\\Users\\User',
+  HOMEDRIVE: 'C:',
+  HOMEPATH: '\\Users\\User',
+  INIT_CWD: 'E:\\MY PROJECT\\안전관리비 걔상 여부앱\\safecash-main\\safecash-main',
+  LOCALAPPDATA: 'C:\\Users\\User\\AppData\\Local',
+  LOGONSERVER: '\\\\USER-9DH7I1QMAL',
+  NODE: 'C:\\Program Files\\nodejs\\node.exe',
+  NODE_ENV: 'production',
+  NODE_EXE: 'C:\\Program Files\\nodejs\\\\node.exe',
+  npm_command: 'exec',
+  npm_config_cache: 'C:\\Users\\User\\AppData\\Local\\npm-cache',
+  npm_config_globalconfig: 'C:\\Users\\User\\AppData\\Roaming\\npm\\etc\\npmrc',
+  npm_config_global_prefix: 'C:\\Users\\User\\AppData\\Roaming\\npm',
+  npm_config_init_module: 'C:\\Users\\User\\.npm-init.js',
+  npm_config_local_prefix: 'E:\\MY PROJECT\\안전관리비 걔상 여부앱\\safecash-main\\safecash-main',
+  npm_config_node_gyp: 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js',
+  npm_config_noproxy: '',
+  npm_config_npm_version: '11.6.2',
+  npm_config_prefix: 'C:\\Users\\User\\AppData\\Roaming\\npm',
+  npm_config_userconfig: 'C:\\Users\\User\\.npmrc',
+  npm_config_user_agent: 'npm/11.6.2 node/v24.13.0 win32 x64 workspaces/false',
+  npm_execpath: 'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+  npm_lifecycle_event: 'npx',
+  npm_lifecycle_script: 'vite',
+  npm_node_execpath: 'C:\\Program Files\\nodejs\\node.exe',
+  npm_package_json: 'E:\\MY PROJECT\\안전관리비 걔상 여부앱\\safecash-main\\safecash-main\\package.json',
+  npm_package_name: 'react-example',
+  npm_package_version: '0.0.0',
+  NPM_PREFIX_JS: 'C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npm-prefix.js',
+  NPM_PREFIX_NPX_CLI_JS: 'C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npx-cli.js',
+  NPX_CLI_JS: 'C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npx-cli.js',
+  NUMBER_OF_PROCESSORS: '12',
+  OneDrive: 'C:\\Users\\User\\OneDrive',
+  OneDriveConsumer: 'C:\\Users\\User\\OneDrive',
+  OS: 'Windows_NT',
+  PATH: 'E:\\MY PROJECT\\안전관리비 걔상 여부앱\\safecash-main\\safecash-main\\node_modules\\.bin;E:\\MY PROJECT\\안전관리비 걔상 여부앱\\safecash-main\\safecash-main\\node_modules\\.bin;E:\\MY PROJECT\\안전관리비 걔상 여부앱\\safecash-main\\node_modules\\.bin;E:\\MY PROJECT\\안전관리비 걔상 여부앱\\node_modules\\.bin;E:\\MY PROJECT\\node_modules\\.bin;E:\\node_modules\\.bin;C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:/Users/User/.gemini/antigravity-ide/bin;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Ruby34-x64\\bin;C:\\Users\\User\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts;C:\\Users\\User\\.local\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314-32\\Scripts\\;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314-32\\;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\ProgramData\\User\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links;C:\\Users\\User\\AppData\\Local\\Programs\\Antigravity IDE\\bin',
+  PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL',
+  PROCESSOR_ARCHITECTURE: 'AMD64',
+  PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 158 Stepping 10, GenuineIntel',
+  PROCESSOR_LEVEL: '6',
+  PROCESSOR_REVISION: '9e0a',
+  ProgramData: 'C:\\ProgramData',
+  ProgramFiles: 'C:\\Program Files',
+  'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+  ProgramW6432: 'C:\\Program Files',
+  PROMPT: '$P$G',
+  PSModulePath: 'C:\\Users\\User\\OneDrive\\문서\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules',
+  PUBLIC: 'C:\\Users\\Public',
+  SESSIONNAME: 'Console',
+  SystemDrive: 'C:',
+  SystemRoot: 'C:\\Windows',
+  TEMP: 'C:\\Users\\User\\AppData\\Local\\Temp',
+  TMP: 'C:\\Users\\User\\AppData\\Local\\Temp',
+  USERDOMAIN: 'USER-9DH7I1QMAL',
+  USERDOMAIN_ROAMINGPROFILE: 'USER-9DH7I1QMAL',
+  USERNAME: 'User',
+  USERPROFILE: 'C:\\Users\\User',
+  VSCODE_CODE_CACHE_PATH: 'C:\\Users\\User\\AppData\\Roaming\\Antigravity IDE\\CachedData\\def9583aef9852ff94cb0dea16ede9bb6b095b30',
+  VSCODE_CWD: 'C:\\Users\\User\\AppData\\Local\\Programs\\Antigravity IDE',
+  VSCODE_IPC_HOOK: '\\\\.\\pipe\\f75a0790-1.107.0-main-sock',
+  VSCODE_NLS_CONFIG: '{"userLocale":"en-us","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Antigravity IDE\\\\resources\\\\app\\\\out\\\\nls.messages.json","locale":"en-us","availableLanguages":{}}',
+  VSCODE_PID: '9620',
+  windir: 'C:\\Windows'
+}
+2026-06-08T03:03:41.678Z vite:env loading env files: [
+  'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/.env',
+  'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/.env.local',
+  'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/.env.production',
+  'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/.env.production.local'
+]
+2026-06-08T03:03:41.679Z vite:env env files loaded in 1.46ms
+2026-06-08T03:03:41.681Z vite:env using resolved env: { VITE_GEMINI_API_KEY: 'AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw' }
+2026-06-08T03:03:41.729Z vite:config using resolved config: {
+  plugins: [
+    'vite:build-metadata',
+    'vite:watch-package-data',
+    'alias',
+    'vite:react-babel',
+    'vite:react-refresh',
+    '@tailwindcss/vite:scan',
+    '@tailwindcss/vite:generate:build',
+    'vite:modulepreload-polyfill',
+    'vite:resolve',
+    'vite:html-inline-proxy',
+    'vite:css',
+    'vite:esbuild',
+    'vite:json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'vite:react-virtual-preamble',
+    'vite:wasm-fallback',
+    'vite:define',
+    'vite:css-post',
+    'vite:build-html',
+    'vite:worker-import-meta-url',
+    'vite:asset-import-meta-url',
+    'vite:force-systemjs-wrap-complete',
+    'commonjs',
+    'vite:data-uri',
+    'vite:rollup-options-plugins',
+    'vite:dynamic-import-vars',
+    'vite:import-glob',
+    'vite:build-import-analysis',
+    'vite:esbuild-transpile',
+    'vite:terser',
+    'vite:manifest',
+    'vite:ssr-manifest',
+    'vite:reporter',
+    'vite:load-fallback'
+  ],
+  define: {
+    'process.env.GEMINI_API_KEY': '"AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw"',
+    __GEMINI_API_KEY__: '"AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw"'
+  },
+  resolve: {
+    externalConditions: [ 'node' ],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [],
+    noExternal: [],
+    external: [],
+    preserveSymlinks: false,
+    alias: [
+      {
+        find: '@',
+        replacement: 'E:\\MY PROJECT\\안전관리비 걔상 여부앱\\safecash-main\\safecash-main'
+      },
+      {
+        find: /^\/?@vite\/env/,
+        replacement: '/@fs/E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/node_modules/vite/dist/client/env.mjs'
+      },
+      {
+        find: /^\/?@vite\/client/,
+        replacement: '/@fs/E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/node_modules/vite/dist/client/client.mjs'
+      }
+    ],
+    mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+    conditions: [ 'module', 'browser', 'development|production' ],
+    builtins: []
+  },
+  build: {
+    target: [ 'es2020', 'edge88', 'firefox78', 'chrome87', 'safari14' ],
+    polyfillModulePreload: true,
+    modulePreload: { polyfill: true },
+    outDir: 'dist',
+    assetsDir: 'assets',
+    assetsInlineLimit: 4096,
+    sourcemap: false,
+    terserOptions: {},
+    rollupOptions: {
+      external: [
+        'express', 'dotenv',
+        'fs',      'path',
+        'os',      'http',
+        'https',   'net',
+        'tls',     'stream',
+        'events',  'util',
+        'buffer',  'crypto'
+      ],
+      output: {
+        manualChunks: {
+          vendor: [ 'react', 'react-dom' ],
+          genai: [ '@google/genai' ],
+          ui: [ 'lucide-react', 'motion' ],
+          pdf: [ 'jspdf' ]
+        }
+      },
+      onwarn: [Function: onwarn]
+    },
+    commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+    dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+    write: true,
+    emptyOutDir: null,
+    copyPublicDir: true,
+    manifest: false,
+    lib: false,
+    ssrManifest: false,
+    ssrEmitAssets: false,
+    reportCompressedSize: true,
+    chunkSizeWarningLimit: 500,
+    watch: null,
+    cssCodeSplit: true,
+    minify: 'esbuild',
+    ssr: false,
+    emitAssets: true,
+    createEnvironment: [Function: createEnvironment],
+    cssTarget: [ 'es2020', 'edge88', 'firefox78', 'chrome87', 'safari14' ],
+    cssMinify: true
+  },
+  server: {
+    port: 3000,
+    strictPort: false,
+    host: '0.0.0.0',
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {},
+    warmup: { clientFiles: [], ssrFiles: [] },
+    middlewareMode: false,
+    fs: {
+      strict: true,
+      deny: [ '.env', '.env.*', '*.{crt,pem}', '**/.git/**' ],
+      allow: [ 'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main' ]
+    },
+    preTransformRequests: true,
+    perEnvironmentStartEndDuringDev: false,
+    sourcemapIgnoreList: [Function: isInNodeModules$1],
+    hmr: true
+  },
+  esbuild: { jsxDev: false, jsx: 'automatic', jsxImportSource: undefined },
+  optimizeDeps: {
+    include: [
+      'react',
+      'react-dom',
+      'react/jsx-dev-runtime',
+      'react/jsx-runtime'
+    ],
+    exclude: [],
+    needsInterop: [],
+    extensions: [],
+    disabled: undefined,
+    holdUntilCrawlEnd: true,
+    force: false,
+    noDiscovery: false,
+    esbuildOptions: { preserveSymlinks: false, jsx: 'automatic' }
+  },
+  environments: {
+    client: {
+      define: {
+        'process.env.GEMINI_API_KEY': '"AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw"',
+        __GEMINI_API_KEY__: '"AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw"'
+      },
+      resolve: {
+        externalConditions: [ 'node' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [],
+        noExternal: [],
+        external: [],
+        preserveSymlinks: false,
+        alias: [
+          {
+            find: '@',
+            replacement: 'E:\\MY PROJECT\\안전관리비 걔상 여부앱\\safecash-main\\safecash-main'
+          },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'browser', 'development|production' ],
+        builtins: []
+      },
+      keepProcessEnv: false,
+      consumer: 'client',
+      optimizeDeps: {
+        include: [
+          'react',
+          'react-dom',
+          'react/jsx-dev-runtime',
+          'react/jsx-runtime'
+        ],
+        exclude: [],
+        needsInterop: [],
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        noDiscovery: false,
+        esbuildOptions: { preserveSymlinks: false, jsx: 'automatic' }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules$1],
+        preTransformRequests: true,
+        createEnvironment: [Function: defaultCreateClientDevEnvironment],
+        recoverable: true,
+        moduleRunnerTransform: false
+      },
+      build: {
+        target: [ 'es2020', 'edge88', 'firefox78', 'chrome87', 'safari14' ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: 'assets',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        rollupOptions: {
+          external: [
+            'express', 'dotenv',
+            'fs',      'path',
+            'os',      'http',
+            'https',   'net',
+            'tls',     'stream',
+            'events',  'util',
+            'buffer',  'crypto'
+          ],
+          output: {
+            manualChunks: {
+              vendor: [ 'react', 'react-dom' ],
+              genai: [ '@google/genai' ],
+              ui: [ 'lucide-react', 'motion' ],
+              pdf: [ 'jspdf' ]
+            }
+          },
+          onwarn: [Function: onwarn]
+        },
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { warnOnError: true, exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: 'esbuild',
+        ssr: false,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [ 'es2020', 'edge88', 'firefox78', 'chrome87', 'safari14' ],
+        cssMinify: true
+      }
+    }
+  },
+  configFile: 'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/vite.config.ts',
+  configFileDependencies: [
+    'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/vite.config.ts'
+  ],
+  inlineConfig: {
+    root: undefined,
+    base: undefined,
+    mode: undefined,
+    configFile: undefined,
+    configLoader: undefined,
+    logLevel: undefined,
+    clearScreen: undefined,
+    build: {}
+  },
+  root: 'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main',
+  base: '/',
+  decodedBase: '/',
+  rawBase: '/',
+  publicDir: 'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/public',
+  cacheDir: 'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/node_modules/.vite',
+  command: 'build',
+  mode: 'production',
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: true,
+  css: {
+    transformer: 'postcss',
+    preprocessorMaxWorkers: 0,
+    devSourcemap: false
+  },
+  json: { namedExports: true, stringify: 'auto' },
+  builder: undefined,
+  preview: {
+    port: 4173,
+    strictPort: false,
+    host: '0.0.0.0',
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {}
+  },
+  envDir: 'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main',
+  env: {
+    VITE_GEMINI_API_KEY: 'AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw',
+    BASE_URL: '/',
+    MODE: 'production',
+    DEV: false,
+    PROD: true
+  },
+  assetsInclude: [Function: assetsInclude],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main' => {
+      dir: 'E:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main',
+      data: {
+        name: 'react-example',
+        private: true,
+        version: '0.0.0',
+        type: 'module',
+        scripts: {
+          dev: 'vite --port=3000 --host=0.0.0.0',
+          build: 'vite build',
+          preview: 'vite preview',
+          clean: 'rm -rf dist',
+          lint: 'tsc --noEmit'
+        },
+        dependencies: {
+          '@google/genai': '^1.29.0',
+          '@tailwindcss/vite': '^4.1.14',
+          '@vitejs/plugin-react': '^5.0.4',
+          dotenv: '^17.2.3',
+          express: '^4.21.2',
+          jspdf: '^4.2.1',
+          'lucide-react': '^0.546.0',
+          motion: '^12.23.24',
+          react: '^19.0.0',
+          'react-dom': '^19.0.0',
+          vite: '^6.2.0'
+        },
+        devDependencies: {
+          '@types/express': '^4.17.21',
+          '@types/node': '^22.14.0',
+          autoprefixer: '^10.4.21',
+          tailwindcss: '^4.1.14',
+          tsx: '^4.21.0',
+          typescript: '~5.8.2',
+          vite: '^6.2.0'
+        }
+      },
+      hasSideEffects: [Function: hasSideEffects],
+      setResolvedCache: [Function: setResolvedCache],
+      getResolvedCache: [Function: getResolvedCache]
+    },
+    set: [Function (anonymous)]
+  },
+  worker: { format: 'iife', plugins: '() => plugins', rollupOptions: {} },
+  appType: 'spa',
+  experimental: { importGlobRestoreExtension: false, hmrPartialAccept: false },
+  future: undefined,
+  ssr: {
+    target: 'node',
+    optimizeDeps: { esbuildOptions: { preserveSymlinks: false } },
+    resolve: { conditions: undefined, externalConditions: undefined }
+  },
+  dev: {
+    warmup: [],
+    sourcemap: { js: true },
+    sourcemapIgnoreList: [Function: isInNodeModules$1],
+    preTransformRequests: false,
+    createEnvironment: [Function: defaultCreateDevEnvironment],
+    recoverable: false,
+    moduleRunnerTransform: false
+  },
+  webSocketToken: '4a19MfJqzqH7',
+  getSortedPlugins: [Function: getSortedPlugins],
+  getSortedPluginHooks: [Function: getSortedPluginHooks],
+  createResolver: [Function: createResolver],
+  fsDenyGlob: [Function: arrayMatcher],
+  safeModulePaths: Set(0) {},
+  additionalAllowedHosts: [ '0.0.0.0', '0.0.0.0' ],
+  Symbol(vite:resolved-config): true
+}
+[36mvite v6.4.2 [32mbuilding for production...[36m[39m
+transforming...
+2026-06-08T03:03:41.849Z vite:resolve [32m2.28ms[39m [36mtailwindcss[39m -> [2mE:/MY PROJECT/안전관리비 걔상 여부앱/safecash-main/safecash-main/node_modules/tailwindcss/index.css[22m
+[32m✓[39m 2334 modules transformed.

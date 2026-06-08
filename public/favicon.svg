@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- 배경 원 -->
+  <circle cx="32" cy="32" r="32" fill="#1A1A2E"/>
+  <!-- 방패 -->
+  <path d="M32 10 L50 18 L50 34 C50 44 32 54 32 54 C32 54 14 44 14 34 L14 18 Z"
+        fill="url(#shieldGrad)" opacity="0.95"/>
+  <!-- 원화 기호 ₩ -->
+  <text x="32" y="40" text-anchor="middle" font-family="Arial Black, sans-serif"
+        font-size="22" font-weight="900" fill="white" letter-spacing="-1">₩</text>
+  <!-- 그라디언트 정의 -->
+  <defs>
+    <linearGradient id="shieldGrad" x1="32" y1="10" x2="32" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+  </defs>
+</svg>
