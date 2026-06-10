@@ -116,6 +116,55 @@ export default function App() {
             )}
           </div>
         </div>
+
+        {/* Company Logo & Links */}
+        <div className="p-5 border-t border-[#E5E5E5] bg-white">
+          <a
+            href="https://www.automosafety.co.kr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block group"
+            title="AUTOMO 안전연구소 홈페이지"
+          >
+            <div className="flex items-center justify-center bg-[#F0F2F5] rounded-xl p-3 mb-3 group-hover:bg-[#E8EBF0] transition-colors duration-200">
+              <img
+                src="/automo-logo.png"
+                alt="AUTOMO 안전연구소 로고"
+                className="h-14 object-contain"
+              />
+            </div>
+          </a>
+          <div className="space-y-1.5">
+            <a
+              href="https://www.automosafety.co.kr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[11px] text-[#1E3A8A] font-bold hover:text-blue-500 transition-colors duration-150 group"
+            >
+              <svg className="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+              </svg>
+              <span className="truncate group-hover:underline">www.automosafety.co.kr</span>
+              <svg className="w-3 h-3 flex-shrink-0 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+            <a
+              href="https://automo-safety1222.tistory.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[11px] text-[#1E3A8A] font-bold hover:text-orange-500 transition-colors duration-150 group"
+            >
+              <svg className="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+              </svg>
+              <span className="truncate group-hover:underline">automo-safety1222.tistory.com</span>
+              <svg className="w-3 h-3 flex-shrink-0 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+        </div>
       </aside>
 
       {/* Main Content Area */}
