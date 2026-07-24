@@ -12,6 +12,7 @@ import { HistoryList } from './components/HistoryList';
 import { AnalysisResult, SearchHistory, Bookmark } from './types';
 import { analyzeItem, isMockMode } from './services/gemini';
 import { AdModal } from './components/AdModal';
+import { LegalModal } from './components/LegalModals';
 
 export default function App() {
   const [showAdModal, setShowAdModal] = useState(true);
@@ -19,6 +20,8 @@ export default function App() {
   const [result, setResult] = useState<AnalysisResult | null>(null);
   const [history, setHistory] = useState<SearchHistory[]>([]);
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
+  const [legalType, setLegalType] = useState<'privacy' | 'terms'>('privacy');
+  const [isLegalOpen, setIsLegalOpen] = useState(false);
 
   // Load from LocalStorage
   useEffect(() => {
@@ -166,6 +169,27 @@ export default function App() {
               </svg>
             </a>
           </div>
+          <div className="flex items-center gap-3 text-[10px] text-gray-400 font-bold border-t border-gray-100 pt-3 mt-3">
+            <button
+              onClick={() => {
+                setLegalType('privacy');
+                setIsLegalOpen(true);
+              }}
+              className="hover:text-primary transition-colors cursor-pointer"
+            >
+              개인정보처리방침
+            </button>
+            <span>|</span>
+            <button
+              onClick={() => {
+                setLegalType('terms');
+                setIsLegalOpen(true);
+              }}
+              className="hover:text-primary transition-colors cursor-pointer"
+            >
+              이용약관
+            </button>
+          </div>
         </div>
       </aside>
 
@@ -212,6 +236,13 @@ export default function App() {
           // adSlot="1234567890"
         />
       )}
+
+      {/* 개인정보처리방침 및 이용약관 모달 */}
+      <LegalModal
+        isOpen={isLegalOpen}
+        onClose={() => setIsLegalOpen(false)}
+        type={legalType}
+      />
     </div>
   );
 }
