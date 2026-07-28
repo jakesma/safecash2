@@ -11,11 +11,9 @@ import { QuickChips } from './components/QuickChips';
 import { HistoryList } from './components/HistoryList';
 import { AnalysisResult, SearchHistory, Bookmark } from './types';
 import { analyzeItem, isMockMode } from './services/gemini';
-import { AdModal } from './components/AdModal';
 import { LegalModal } from './components/LegalModals';
 
 export default function App() {
-  const [showAdModal, setShowAdModal] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [result, setResult] = useState<AnalysisResult | null>(null);
   const [history, setHistory] = useState<SearchHistory[]>([]);
@@ -226,16 +224,7 @@ export default function App() {
         </section>
       </main>
 
-      {/* 6초 전면 광고 모달 */}
-      {showAdModal && (
-        <AdModal
-          onClose={() => setShowAdModal(false)}
-          durationSeconds={6}
-          adClient="ca-pub-5884232947216122"
-          // 필요 시 구글 애드센스 디스플레이 단위 광고 슬롯 ID(adSlot)를 지정할 수 있습니다.
-          // adSlot="1234567890"
-        />
-      )}
+
 
       {/* 개인정보처리방침 및 이용약관 모달 */}
       <LegalModal
