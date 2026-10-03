@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite build",
+    "build": "node scripts/clean-dist.mjs && vite build --emptyOutDir false",
     "preview": "vite preview",
-    "clean": "rm -rf dist",
+    "clean": "node scripts/clean-dist.mjs",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
