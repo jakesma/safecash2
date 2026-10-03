@@ -14,6 +14,7 @@ const apiKey: string =
   ?? '';
 
 export const isMockMode = !apiKey || 
+  !apiKey.startsWith('AIza') ||
   apiKey === 'AIzaSyA_BckWmtw61iaYLS5FuIZx3XQYJtxyOCw' || 
   apiKey.includes('YOUR_API_KEY') ||
   apiKey.trim() === '';
@@ -174,6 +175,21 @@ const MOCK_DATA: Record<string, Omit<AnalysisResult, 'timestamp'>> = {
     summary: '현장 내 응급처치를 위한 구급약품이나 응급용품 구매비용은 계상이 가능합니다.',
     bases: [{ title: '건설업 산업안전보건비 계상 및 사용기준 제7조 제1항 제6호', content: '건강장해예방비: 부상 근로자의 구급 및 치료에 필요한 구급약품(소독약, 붕대, 연고 등) 및 구급용구(구급상자, 산소호흡기 등) 구매비용 계상 가능.', source: '고용노동부 고시 및 국가법령정보센터' }]
   },
+  '산소농도측정기': {
+    itemName: '산소농도측정기', category: '4. 사업장의 안전진단비 등', status: 'O', statusLabel: '계상 가능',
+    summary: '밀폐공간·산소결핍 위험이 있는 작업환경에서 근로자 보호를 위해 필요한 산소농도측정기는 산업안전보건관리비로 계상할 수 있습니다.',
+    bases: [{ title: '[KKB 산안법 질의회시] 산소농도측정기, 소음측정기의 안전보건관리비 사용가능 여부', content: '현장 근로자의 작업환경 개선을 위해 필요한 산소농도측정기와 소음측정기 구입·유지보수비 등은 산소결핍 또는 소음 노출로 인한 재해 방지 목적이라면 안전보건관리비로 사용 가능하다는 답변이 있었습니다. 특히 밀폐공간 용접·가스작업, 소음이 심한 환경에서 필요한 장비는 업무 목적과 증빙이 맞으면 인정 가능.', source: '한국건설종합안전(주) 산안법 질의회시' }]
+  },
+  '소음측정기': {
+    itemName: '소음측정기', category: '4. 사업장의 안전진단비 등', status: 'O', statusLabel: '계상 가능',
+    summary: '소음 노출로 인한 난청 및 작업환경 악화를 막기 위한 소음측정기 구입·유지보수비는 산업안전보건관리비로 계상 가능성이 높습니다.',
+    bases: [{ title: '[KKB 산안법 질의회시] 산소농도측정기, 소음측정기의 안전보건관리비 사용가능 여부', content: '현장 근로자의 작업환경 개선을 위해 필요한 산소농도측정기와 소음측정기의 구입·유지보수비는 작업환경 측정과 재해예방 목적이 뚜렷하면 안전보건관리비로 사용 가능함이 회신되었습니다. 소음에 따른 난청 감소 대책 수립에 필요한 장비는 해당 기준에 적합.', source: '한국건설종합안전(주) 산안법 질의회시' }]
+  },
+  '작업환경측정기': {
+    itemName: '작업환경측정기', category: '4. 사업장의 안전진단비 등', status: 'O', statusLabel: '계상 가능',
+    summary: '작업환경 개선을 위해 필요한 산소·소음 등 측정장비는 산업재해 예방 목적의 안전보건관리비로 계상 가능합니다.',
+    bases: [{ title: '[KKB 산안법 질의회시] 산소농도측정기, 소음측정기의 안전보건관리비 사용가능 여부', content: '작업환경 개선을 위해 필요한 측정장비의 구입 및 유지보수비는 근로자 보호 목적이 명확하고 작업조건에 맞는 경우 안전보건관리비로 사용 가능하다는 유권해석에 따라 인정.', source: '한국건설종합안전(주) 산안법 질의회시' }]
+  },
   '쿨스카프': {
     itemName: '쿨스카프', category: '6. 근로자의 건강장해예방비 등', status: '△', statusLabel: '조건부 가능',
     summary: '쿨스카프, 쿨토시 등은 혹서기 폭염 대책 등에 따라 여름철(6월~9월) 동안 조건부로 계상이 가능합니다.',
@@ -232,14 +248,35 @@ const MOCK_DATA: Record<string, Omit<AnalysisResult, 'timestamp'>> = {
 };
 
 export async function analyzeItem(query: string): Promise<AnalysisResult> {
+  const trimmedQuery = query.trim();
+  const isWebsiteAddress = /^(?:https?:\/\/)?(?:www\.)?(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}(?:[/?#].*)?$/i.test(trimmedQuery);
+
+  if (isWebsiteAddress) {
+    return {
+      itemName: trimmedQuery,
+      category: '판별 대상 아님',
+      status: 'UNKNOWN',
+      statusLabel: '검색어 확인 필요',
+      summary: '웹사이트 주소는 산업안전보건관리비 계상 여부를 판별할 수 없습니다. 물품명 또는 구매·사용 상황을 입력해 주세요.',
+      bases: [
+        {
+          title: '검색어 입력 안내',
+          content: '이 서비스는 건설현장에서 사용하는 물품, 장비, 비용 또는 구체적인 사용 상황의 계상 가능 여부를 판별합니다.',
+          source: 'SafeCash'
+        }
+      ],
+      timestamp: Date.now()
+    };
+  }
+
   // Mock fallback logic
   if (isMockMode) {
     // Add artificial delay to simulate network latency
     await new Promise(resolve => setTimeout(resolve, 800));
 
-    const trimmedQuery = query.trim().replace(/\s+/g, '');
+    const normalizedQuery = trimmedQuery.replace(/\s+/g, '');
     const matchedKey = Object.keys(MOCK_DATA).find(key => 
-      trimmedQuery.includes(key.replace(/\s+/g, '')) || key.replace(/\s+/g, '').includes(trimmedQuery)
+      normalizedQuery.includes(key.replace(/\s+/g, '')) || key.replace(/\s+/g, '').includes(normalizedQuery)
     );
 
     if (matchedKey) {
@@ -270,6 +307,7 @@ export async function analyzeItem(query: string): Promise<AnalysisResult> {
       '작업발판|비계|가설통로|안전통로|' +
       '방호장치|인터록|비상정지|안전커버|'  +
       '보호구|개인보호|산업안전|스마트안전장비|지능형CCTV|구급약품|구급상자|응급처치|산소호흡기|' +
+      '산소농도측정기|소음측정기|작업환경측정기|유해가스측정기|환경측정기|' +
       '볼트앤드캡|볼트엔드캡|후방카메라|후사경|논슬립|안전기원제|선풍기|에어컨|그늘막'
     ).test(query);
 
@@ -296,6 +334,7 @@ export async function analyzeItem(query: string): Promise<AnalysisResult> {
       'CCTV|카메라|드론|촬영장비|' +
       '컴퓨터|노트북|태블릿|스마트폰|' +
       '의약품|구급약|구급상자|응급키트|' +
+      '산소농도측정기|소음측정기|작업환경측정기|유해가스측정기|환경측정기|' +
       '정수기|식수|음용수|' +
       '이동식창고|컨테이너박스|신호수|유도자|화재감시|이동식에어컨|그늘막|' +
       '담요|임시소방시설|우의|방염복|차량유지'
